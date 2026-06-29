@@ -1,5 +1,9 @@
-latest: 0.2.0
+latest: 0.2.1
 window: 5
 releases:
 - 0.2.0
-patches: []
+- 0.2.1
+patches:
+- from: 0.2.0
+  to: 0.2.1
+  file: v0.2.1/patch-v0.2.0-v0.2.1.zip
