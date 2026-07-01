@@ -1,9 +1,10 @@
-latest: 0.2.2
+latest: 0.2.3
 window: 5
 releases:
 - 0.2.0
 - 0.2.1
 - 0.2.2
+- 0.2.3
 patches:
 - from: 0.2.0
   to: 0.2.1
@@ -14,3 +15,12 @@ patches:
 - from: 0.2.0
   to: 0.2.2
   file: v0.2.2/patch-v0.2.0-v0.2.2.zip
+- from: 0.2.2
+  to: 0.2.3
+  file: v0.2.3/patch-v0.2.2-v0.2.3.zip
+- from: 0.2.1
+  to: 0.2.3
+  file: v0.2.3/patch-v0.2.1-v0.2.3.zip
+- from: 0.2.0
+  to: 0.2.3
+  file: v0.2.3/patch-v0.2.0-v0.2.3.zip
