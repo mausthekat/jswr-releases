@@ -1,4 +1,4 @@
-latest: 0.2.6
+latest: 0.2.7
 window: 5
 releases:
 - 0.2.0
@@ -8,6 +8,7 @@ releases:
 - 0.2.4
 - 0.2.5
 - 0.2.6
+- 0.2.7
 patches:
 - from: 0.2.0
   to: 0.2.1
@@ -69,3 +70,18 @@ patches:
 - from: 0.2.1
   to: 0.2.6
   file: v0.2.6/patch-v0.2.1-v0.2.6.zip
+- from: 0.2.6
+  to: 0.2.7
+  file: v0.2.7/patch-v0.2.6-v0.2.7.zip
+- from: 0.2.5
+  to: 0.2.7
+  file: v0.2.7/patch-v0.2.5-v0.2.7.zip
+- from: 0.2.4
+  to: 0.2.7
+  file: v0.2.7/patch-v0.2.4-v0.2.7.zip
+- from: 0.2.3
+  to: 0.2.7
+  file: v0.2.7/patch-v0.2.3-v0.2.7.zip
+- from: 0.2.2
+  to: 0.2.7
+  file: v0.2.7/patch-v0.2.2-v0.2.7.zip
