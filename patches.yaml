@@ -1,4 +1,4 @@
-latest: 0.2.8
+latest: 0.2.9
 window: 5
 releases:
 - 0.2.0
@@ -10,6 +10,7 @@ releases:
 - 0.2.6
 - 0.2.7
 - 0.2.8
+- 0.2.9
 patches:
 - from: 0.2.0
   to: 0.2.1
@@ -101,3 +102,18 @@ patches:
 - from: 0.2.3
   to: 0.2.8
   file: v0.2.8/patch-v0.2.3-v0.2.8.zip
+- from: 0.2.8
+  to: 0.2.9
+  file: v0.2.9/patch-v0.2.8-v0.2.9.zip
+- from: 0.2.7
+  to: 0.2.9
+  file: v0.2.9/patch-v0.2.7-v0.2.9.zip
+- from: 0.2.6
+  to: 0.2.9
+  file: v0.2.9/patch-v0.2.6-v0.2.9.zip
+- from: 0.2.5
+  to: 0.2.9
+  file: v0.2.9/patch-v0.2.5-v0.2.9.zip
+- from: 0.2.4
+  to: 0.2.9
+  file: v0.2.9/patch-v0.2.4-v0.2.9.zip
