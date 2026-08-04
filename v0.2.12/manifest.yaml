@@ -1,0 +1,8 @@
+version: 0.2.12
+files:
+- name: assets.jswn
+  size: 3293050
+  crc32: 3091175248
+- name: jswr.nex
+  size: 951296
+  crc32: 1219103304
